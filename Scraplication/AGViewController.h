@@ -10,4 +10,11 @@
 
 @interface AGViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *NumbField;
+
+@property (strong, nonatomic) IBOutlet UILabel *printPrice;
+
+- (IBAction)submit:(id)sender;
+
+
 @end

@@ -21,6 +21,17 @@
 		7FE08CD019C17F740023302F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE08CB219C17F740023302F /* UIKit.framework */; };
 		7FE08CD819C17F740023302F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FE08CD619C17F740023302F /* InfoPlist.strings */; };
 		7FE08CDA19C17F740023302F /* ScraplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE08CD919C17F740023302F /* ScraplicationTests.m */; };
+		7FE08CE519C1803D0023302F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE08CE319C1803D0023302F /* Bolts.framework */; };
+		7FE08CE619C1803D0023302F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE08CE419C1803D0023302F /* Parse.framework */; };
+		7FE08CE819C1805F0023302F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE08CE719C1805F0023302F /* AudioToolbox.framework */; };
+		7FE08CEA19C180660023302F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE08CE919C180660023302F /* CFNetwork.framework */; };
+		7FE08CEC19C180700023302F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE08CEB19C180700023302F /* CoreLocation.framework */; };
+		7FE08CEE19C180790023302F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE08CED19C180790023302F /* libz.dylib */; };
+		7FE08CF019C180840023302F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE08CEF19C180840023302F /* MobileCoreServices.framework */; };
+		7FE08CF219C1808D0023302F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE08CF119C1808D0023302F /* QuartzCore.framework */; };
+		7FE08CF419C180920023302F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE08CF319C180920023302F /* Security.framework */; };
+		7FE08CF619C1809D0023302F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE08CF519C1809D0023302F /* StoreKit.framework */; };
+		7FE08CF819C180A40023302F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE08CF719C180A40023302F /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,17 @@
 		7FE08CD519C17F740023302F /* ScraplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScraplicationTests-Info.plist"; sourceTree = "<group>"; };
 		7FE08CD719C17F740023302F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7FE08CD919C17F740023302F /* ScraplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScraplicationTests.m; sourceTree = "<group>"; };
+		7FE08CE319C1803D0023302F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Downloads/parse-library-1.3.0 (1)/Bolts.framework"; sourceTree = "<group>"; };
+		7FE08CE419C1803D0023302F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/parse-library-1.3.0 (1)/Parse.framework"; sourceTree = "<group>"; };
+		7FE08CE719C1805F0023302F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7FE08CE919C180660023302F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7FE08CEB19C180700023302F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7FE08CED19C180790023302F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7FE08CEF19C180840023302F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7FE08CF119C1808D0023302F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7FE08CF319C180920023302F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7FE08CF519C1809D0023302F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7FE08CF719C180A40023302F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +82,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE08CF819C180A40023302F /* SystemConfiguration.framework in Frameworks */,
+				7FE08CF619C1809D0023302F /* StoreKit.framework in Frameworks */,
+				7FE08CF419C180920023302F /* Security.framework in Frameworks */,
+				7FE08CF219C1808D0023302F /* QuartzCore.framework in Frameworks */,
+				7FE08CF019C180840023302F /* MobileCoreServices.framework in Frameworks */,
+				7FE08CEE19C180790023302F /* libz.dylib in Frameworks */,
+				7FE08CEC19C180700023302F /* CoreLocation.framework in Frameworks */,
+				7FE08CEA19C180660023302F /* CFNetwork.framework in Frameworks */,
+				7FE08CE819C1805F0023302F /* AudioToolbox.framework in Frameworks */,
 				7FE08CB119C17F740023302F /* CoreGraphics.framework in Frameworks */,
 				7FE08CB319C17F740023302F /* UIKit.framework in Frameworks */,
 				7FE08CAF19C17F740023302F /* Foundation.framework in Frameworks */,
+				7FE08CE519C1803D0023302F /* Bolts.framework in Frameworks */,
+				7FE08CE619C1803D0023302F /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +134,17 @@
 		7FE08CAD19C17F740023302F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7FE08CF719C180A40023302F /* SystemConfiguration.framework */,
+				7FE08CF519C1809D0023302F /* StoreKit.framework */,
+				7FE08CF319C180920023302F /* Security.framework */,
+				7FE08CF119C1808D0023302F /* QuartzCore.framework */,
+				7FE08CEF19C180840023302F /* MobileCoreServices.framework */,
+				7FE08CED19C180790023302F /* libz.dylib */,
+				7FE08CEB19C180700023302F /* CoreLocation.framework */,
+				7FE08CE919C180660023302F /* CFNetwork.framework */,
+				7FE08CE719C1805F0023302F /* AudioToolbox.framework */,
+				7FE08CE319C1803D0023302F /* Bolts.framework */,
+				7FE08CE419C1803D0023302F /* Parse.framework */,
 				7FE08CAE19C17F740023302F /* Foundation.framework */,
 				7FE08CB019C17F740023302F /* CoreGraphics.framework */,
 				7FE08CB219C17F740023302F /* UIKit.framework */,
@@ -377,6 +421,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/albertguo/Downloads/parse-library-1.3.0",
+					"(1)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Scraplication/Scraplication-Prefix.pch";
 				INFOPLIST_FILE = "Scraplication/Scraplication-Info.plist";
@@ -390,6 +439,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/albertguo/Downloads/parse-library-1.3.0",
+					"(1)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Scraplication/Scraplication-Prefix.pch";
 				INFOPLIST_FILE = "Scraplication/Scraplication-Info.plist";

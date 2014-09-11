@@ -7,6 +7,7 @@
 //
 
 #import "AGViewController.h"
+#import <Parse/Parse.h>
 
 @interface AGViewController ()
 
@@ -26,4 +27,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)submit:(id)sender {
+    _printPrice.text = _NumbField.text;
+    PFObject *price = [PFObject objectWithClassName: @"price"];
+    price[@"price"] = _NumbField.text;
+    [price saveInBackground];
+}
 @end
